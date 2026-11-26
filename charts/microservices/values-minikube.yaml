@@ -4,7 +4,7 @@ ingress:
 gateway:
   replicaCount: 1
   image:
-    tag: sha-0000000
+    tag: sha-c434fef
 
 user:
   replicaCount: 1
