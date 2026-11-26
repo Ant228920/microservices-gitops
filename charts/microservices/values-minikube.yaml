@@ -4,14 +4,14 @@ ingress:
 gateway:
   replicaCount: 1
   image:
-    tag: sha-865266f
+    tag: sha-c434fef
 
 user:
   replicaCount: 1
   image:
-    tag: sha-865266f
+    tag: sha-c434fef
 
 payment:
   replicaCount: 1
   image:
-    tag: sha-865266f
+    tag: sha-c434fef
