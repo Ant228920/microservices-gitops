@@ -1,0 +1,17 @@
+ingress:
+  enabled: false
+
+gateway:
+  replicaCount: 1
+  image:
+    tag: sha-865266f
+
+user:
+  replicaCount: 1
+  image:
+    tag: sha-865266f
+
+payment:
+  replicaCount: 1
+  image:
+    tag: sha-865266f
