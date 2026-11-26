@@ -20,6 +20,6 @@ spec:
   syncPolicy:
     automated:
       prune: true
-      selfHeal: false   # п. 6a: спершу false (OutOfSync), потім змінюємо на true комітом
+      selfHeal: true   # п. 6a: спершу false (OutOfSync), потім змінюємо на true комітом
     syncOptions:
       - CreateNamespace=true
